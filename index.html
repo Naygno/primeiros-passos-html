@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passo em HTML</title>
+</head>
+<body>
+    <h1>Explicando as Tags Aprendidas</h1>
+    <hr />
+    <p>
+        Resolução do desafio de código proposto no Módulo 1 - Primeiros Passos com HTML 
+        do curso <strong>Formação HTML Web Developer</strong>
+        disponível na plataforma de ensino DIO.me.
+    </p>
+    <p>
+        A linguagem de marcação HTML tem por objetivo criar a estrutura de uma página Web. Ela é como se fosse
+        as partes fundamentais de uma casa, como teto, paredes e piso, 
+        mas sem o acabamento e demais instalações como água e energia elétrica.
+        Para isso ela utiliza <strong>elementos</strong> que são a combinação de uma tag de abertura,
+            seus atributos, o conteúdo que está entre as tags e a tag de fechamento.
+    </p>
+    <h2 id="indice">Índice</h2>
+    <ul>
+        <li><a href="#base-do-documento">Estrutura Base do Documento</a></li>
+        <li><a href="#secao-conteudo">Estrutura de Seção e Conteúdo</a></li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#enfase-semantica">Ênfase e Semântica de Texto</a></li>
+        <li><a href="#formatacao-texto">Formatação de Texto</a></li>
+        <li><a href="#interatividade">Interatividade</a></li>
+    </ul>
+    <p>A seguir veja as principais tags classificadas por funcionalidade de acordo com o Índice e suas explicações.</p>
+    
+    <h2 id="base-do-documento">Estrutura Base do Documento</h2>
+    <p>Esses são os elementos e a declaração que formam a estrutura esquelética de toda página HTML. As principais tags são:</p>
+    <ol>
+        <li><a href="#doctype">&lt;!DOCTYPE html&gt;</a></li>
+        <li><a href="#html">&lt;html&gt;</a></li>
+        <li><a href="#head">&lt;head&gt;</a></li>
+        <li><a href="#body">&lt;body&gt;</a></li>
+    </ol>
+    <p>Veja as explicações e usos dessas tags a seguir.</p>
+    <h3 id="doctype">1. &lt;!DOCTYPE html&gt;</h3>
+    <p>Não é propriamente uma tag, mas uma declaração que informa ao navegador qual versão do HTML o documento está usando. Deve ser a primeira linha do código.</p>
+    <h3 id="html">2. &lt;html&gt;</h3>
+    <p>Envolve todo o conteúdo da página web. É o elemento raiz.</p>
+    <h3 id="head">3. &lt;head&gt;</h3>
+    <p>Nele devem ser incluídos elementos como título que será mostrado na aba do navegador e meta elementos, que não serão mostrados na página, para estilização e funcionamento da página como endereços para arquivos CSS e JavaScript.</p>
+    <h3 id="body">4. &lt;body&gt;</h3>
+    <p>Essa tag deve envolver todo o conteúdo que será mostrado no navegador ao usuário.</p>
+    <a href="#indice">&lt; Voltar</a>
+
+    <h2 id="secao-conteudo">Estrutura de Seção e Conteúdo</h2>
+    <p>Esses elementos definem a organização do conteúdo criando divisões e hierarquias.</p>
+    <ol>
+        <li><a href="#header">&lt;header&gt;</a></li>
+        <li><a href="#h1-h6">&lt;h1&gt; até &lt;h6&gt;</a></li>
+        <li><a href="#p">&lt;p&gt;</a></li>
+        <li><a href="#blockquote">&lt;blockquote&gt;</a></li>
+        <li><a href="#hr">&lt;hr&gt;</a></li>
+    </ol>
+    <p>Explicações e usos dessas tags.</p>
+    <h3 id="header">1. &lt;header&gt;</h3>
+    <p>É onde fica o conteúdo introdutório ou grupo de links de navegação pela página.</p>
+    <h3 id="h1-h6">2. &lt;h1&gt; até &lt;h6&gt;</h3>
+    <p>Essas tags são importantes para a criação de títulos para as seções e indicar a sua hierarquia.</p>
+    <ul>
+        <li>A tag &lt;h1&gt; é a mais importante na hierarquia e deve haver apenas um por página.</li>
+        <li>A tag &lt;h2&gt; é a segunda na ordem de importância de deve seguir sempre depois de  &lt;h1&gt;</li>
+        <li>As demais tags &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt; e &lt;h6&gt; vêm em seguida respeitando sua ordem na hierarquia.</li>
+    </ul>
+    <h3 id="p">3. &lt;p&gt;</h3>
+    <p>Essa tag delimita os parágrafos de textos na página.</p>
+    <h3 id="blockquote">4. &lt;blockquote&gt;</h3>
+    <p>É usada para criar um bloco de texto de outra fonte de origem.</p>
+    <h3 id="hr">5. &lt;hr&gt;</h3>
+    <p>Cria uma linha horizontal que delimita seções em uma página.</p>
+    <a href="#indice">&lt; Voltar</a>
+
+    <h2 id="listas">Listas</h2>
+    Essas tags trabalham em conjunto para organizar itens em forma de listas.
+    <ol>
+        <li><a href="#ul">&lt;ul&gt;</a></li>
+        <li><a href="]#ol">&lt;ol&gt;</a></li>
+        <li><a href="#li">&lt;li&gt;</a></li>
+    </ol>
+    <p>Explicações e usos dessas tags.</p>
+    <h3 id="ul">1. &lt;ul&gt;</h3>
+    <p>Cria uma lista não ordenada (com marcadores).</p>
+    <h3 id="ol">2. &lt;ol&gt;</h3>
+    <p>Cria uma lista ordenada (com numeração).</p>
+    <h3 id="li">3. &lt;li&gt;</h3>
+    <p>Cria um item em uma lista.</p>
+    <a href="#indice">&lt; Voltar</a>
+
+    <h2 id="enfase-semantica">Ênfase e Semântica de Texto</h2>
+    <p>Essas tags atribuem um significado ou ênfase a partes específicas do texto.</p>
+    <ol>
+        <li><a href="#strong">&lt;strong&gt;</a></li>
+        <li><a href="#i">&lt;i&gt;</a></li>
+        <li><a href="#small">&lt;small&gt;</a></li>
+        <li><a href="#mark">&lt;mark&gt;</a></li>
+        <li><a href="#abbr">&lt;abbr&gt;</a></li>
+        <li><a href="#del">&lt;del&gt;</a></li>
+    </ol>
+    <p>Explicações e usos dessas tags.</p>
+    <h3 id="string">1. &lt;strong&gt;</h3>
+    <p>Indica que o texto tem grande importância, urgência ou seriedade. <strong>O texto fica em negrito.</strong></p>
+    <h3 id="i">2. &lt;i&gt;</h3>
+    <p>Represente um texto em um tom ou voz diferente. <i>O texto fica em itálico.</i></p>
+    <h3 id="small">3. &lt;small&gt;</h3>
+    <p>Usado para texto com informações secundárias, como avisos ou direitos autorais. <small>O texto fica menor.</small></p>
+    <h3 id="mark">4. &lt;mark&gt;</h3>
+    <p>Destaca um trecho de texto por sua relevância em um contexto específico. <mark>O texto fica destacado como os marcadores de texto fazem.</mark></p>
+    <h3 id="abbr">5. &lt;abbr&gt;</h3>
+    <p>Define a abreviação ou sigla. As iniciais <abbr lang="en" title="HyperText Markup Language">HTML</abbr> é um abreviação para HyperText Markup Language.
+        Esse elemento deve vir acompanhado do atributo <b>title</b> com a descrição completa da abreviação 
+        ou sigla contida como valor. Esse atributo faz o navegador responder mostrando um balãozinho com o significado da sigla ou abreviação quando o cursor do mause passa sobre ela.</p>
+    <h3 id="">6. &lt;del&gt;</h3>
+    <p>Indica que o texto foi removido de um documento. <del>Este texto foi removido.</del></p>
+    <a href="#indice">&lt; Voltar</a>
+
+    <h2 id="formatacao-texto">Formatação de Texto</h2>
+    <p>Essas tags modificam a aparência do texto. Mas isso também pode ser feito pelo CSS que é a forma mais recomendada.</p>
+    <ol>
+        <li><a href="#b">&lt;b&gt;</a></li>
+        <li><a href="#u">&lt;u&gt;</a></li>
+        <li><a href="#sub">&lt;sub&gt;</a></li>
+        <li><a href="#sup">&lt;sup&gt;</a></li>
+        <li><a href="#fonf">&lt;font&gt;</a></li>
+    </ol>
+    <p>Explicações e usos dessas tags.</p>
+    <h3 id="b">1. &lt;b&gt;</h3>
+    <p>Torna o texto em negrito sem adicionar semântica, usado apenas para estilo.<b>Este texto está em negrito.</b>
+    <h3 id="u">2. &lt;b&gt;</h3>
+    <p>Sublinha o texto. <u>Texto sublinhado.</u></p>
+    <h3 id="sub">3. &lt;sub&gt;</h3>
+    <p>O texto fica subscrito, como em fórmulas químicas. O texto a seguir está <sub>subscrito</sub>.</p>
+    <h3 id="sup">4. &lt;sup&gt;</h3>
+    <p>O texto fica sobrescrito, como em fórmulas matemáticas. O texto a seguir está <sup>sobrescrito</sup>.</p>
+    <h3 id="font">5. &lt;font&gt;</h3>
+    <p>Era utilizada para definir estilo de texto, mas foi completamente substituída por CSS. Portanto está obsoleta.</p>
+    <a href="#indice">&lt; Voltar</a>
+
+    <h2 id="interatividade">Interatividade</h2>
+    <p>Tem a função única de criar um link para conectar páginas e recursos.</p>
+    <ol>
+        <li><a href="#a">&lt;a&gt;</a></li>
+    </ol>
+    <p>Explicações e usos dessa tag.</p>
+    <h2 id="a">1. &lt;a&gt;</h2>
+    <p>Cria um hiperlink.</p>
+    <a href="#indice">&lt; Voltar</a>
+
+    <h2>Outras fontes de pesquisa externas.</h2>
+    <ul>
+        <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.in/">W3Schools</a></li>
+        <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+    </ul>
+     <a href="#indice">&lt; Voltar</a>
+</body>
