@@ -48,10 +48,10 @@ As explicações e o conteúdo deste projeto foram elaborados com base em fontes
 ### Autor
 
 * **Nome:** Naygno Barbosa Noia
-* **Perfil:** []()
+* **Perfil:** [GitHub](https://github.com/Naygno)
 
 ---
 
 ### Licença
 
-Este projeto é de código aberto e está disponível sob a licença [Nome da Licença, por exemplo, MIT].
+Este projeto é de código aberto e está disponível sob a licença MIT.
